@@ -30,7 +30,28 @@ import img8_1 from './img8_1.png';
 import img8_2 from './img8_2.png';
 import img8_3 from './img8_3.png';
 import img8_4 from './img8_4.png';
-
+import img9_1 from './img9_1.png';
+import img9_2 from './img9_2.png';
+import img9_3 from './img9_3.png';
+import img10_1 from './img10_1.png';
+import img10_2 from './img10_2.png';
+import img10_3 from './img10_3.png';
+import img10_4 from './img10_4.png';
+import img11_1 from './img11_1.png';
+import img11_2 from './img11_2.png';
+import img11_3 from './img11_3.png';
+import img11_4 from './img11_4.png';
+import img12_1 from './img12_1.png';
+import img12_2 from './img12_2.png';
+import img12_3 from './img12_3.png';
+import img12_4 from './img12_4.png';
+import img13_1 from './img13_1.png';
+import img13_2 from './img13_2.png';
+import img13_3 from './img13_3.png';
+import img13_4 from './img13_4.png';
+import img14_1 from './img14_1.png';
+import img14_2 from './img14_2.png';
+import img14_3 from './img14_3.png';
 
 export const products=[{
     _id:"234werty",
@@ -68,9 +89,9 @@ export const products=[{
 },
 {
     _id:"wsdc56",
-    name:"Leriya Fashion Men's Textured Regular Fit Casual Fancy Full Sleeve Shirt",
-    description:"Leriya Fashion Men's Textured Regular Fit Casual Fancy Full Sleeve Shirt",
-    price:499,
+    name:"Classic Pure Cotton Shirt | Black",
+    description:"Add a modern touch to your wardrobe with our Apex Black Solid Shirt, featuring sharp tailoring and a bold black tone for standout style.",
+    price:1299,
     image:[img4_1,img4_2,img4_3,img4_4],
     category:"men",
     subCategory:"Topwear",
@@ -80,8 +101,8 @@ export const products=[{
 },
 {
     _id:"po56jn45",
-    name:"The Bear House Men's Checked Slim Fit Long Sleeve Shirt",
-    description:" This cotton shirt is modeled in a slim fit and is also designed with a button down collar.",
+    name:"Casual Flat Knit T-Shirt | Purple",
+    description:"Chill, confident, and just the right amount of unexpected — the Casual Flat Knit T-Shirt in Purple adds depth to your casual game.",
     price:849,
     image:[img5_1,img5_2,img5_3,img5_4],
     category:"men",
@@ -92,9 +113,9 @@ export const products=[{
 },
 {
     _id:"23ertfr",
-    name:"Muffynn Store Men's Gurkha Pants",
-    description:"Muffynn’s Gurkha Pants for Men offer unbeatable comfort – ideal for both casual and formal looks. ",
-    price:1790,
+    name:"Casual Anti Fit Jeans | Green",
+    description:"Anti-fit and anti-boring, these green denim jeans are made for guys who like to step off the beaten path. A bold twist on everyday denim.",
+    price:1559,
     image:[img6_1,img6_2,img6_3,img6_4],
     category:"men",
     subCategory:"Bottomwear",
@@ -103,9 +124,9 @@ export const products=[{
     bestSeller:true
 },{
     _id:"poi456",
-    name:"KOTTY Women's Straight Fit Solid Trousers",
-    description:" Trousers for Women Women Loose Fit Trousers Women's High-Waisted Pant",
-    price:490,
+    name:"Navy Knitted Cotton Blend Yoga Pants",
+    description:"A must have yoga pants for all fitness freak out there. It comes featuring elasticated waist for better fit. ",
+    price:850,
     image:[img7_1,img7_2,img7_3,img7_4],
     category:"women",
     subCategory:"Bottomwear",
@@ -115,14 +136,82 @@ export const products=[{
 },
 {
     _id:"098edfvb",
-    name:"Boys H&M Blue Cotton seersucker trousers",
-    description:"Trousers in airy cotton seersucker. Relaxed fit through the hip and thigh with tapered legs.",
-    price:790,
+    name:"Maroon Hooded Oversized Shirt",
+    description:"Rock that casual-cool look with our Maroon Hooded Oversized Shirt. ",
+    price:1949,
     image:[img8_1,img8_2,img8_3,img8_4],
-    category:"kids",
-    subCategory:"Bottomwear",
+    category:"men",
+    subCategory:"Topwear",
     sizes:["S","M","L"],
     date:1745126789012,
+    bestSeller:true
+},
+{
+    _id:"sdf56",
+    name:"Women's Regular Fit Leggings",
+    description:"Women's Regular Fit Leggings. Relaxed fit through the hip and thigh with tapered legs.",
+    price:399,
+    image:[img9_1,img9_2,img9_3],
+    category:"women",
+    subCategory:"Bottomwear",
+    sizes:["S","M","L"],
+    date:1405632176543,
+    bestSeller:true
+},{
+    _id:"uyhgfc56",
+    name:"Jockey Women's Super Combed Cotton Rich Straight Fit Wide Leg Pants",
+    description:"JockeyWomen's Ribbed Relaxed Fit Culottes Trousers. Relaxed fit through the hip and thigh with tapered legs.",
+    price:899,
+    image:[img10_1,img10_2,img10_3,img10_4],
+    category:"women",
+    subCategory:"Bottomwear",
+    sizes:["S","M","L"],
+    date:1598745632198,
+    bestSeller:true
+},
+{
+    _id:"45rtghn",
+    name:"Blue Blend Checked Cotton Shirt",
+    description:"Blues that never blend in. This checked cotton shirt is the ultimate mix of effortless style and all-day comfort. Pair it with denim or chinos and make it your everyday MVP.",
+    price:1819,
+    image:[img11_1,img11_2,img11_3,img11_4],
+    category:"men",
+    subCategory:"Topwear",
+    sizes:["S","M","L"],
+    date:1783421567890,
+    bestSeller:true
+},{
+    _id:"oiu678",
+    name:"Classic Trim Slim Fit Trouser",
+    description:"Redefine classic style with these trim fit trousers. Slim, sleek, and versatile, they're made for those who love a polished, put-together look.",
+    price:1429,
+    image:[img12_1,img12_2,img12_3,img12_4],
+    category:"men",
+    subCategory:"Bottomwear",
+    sizes:["S","M","L"],
+    date:1660054321987,
+    bestSeller:true
+},{
+    _id:"tyhj78",
+    name:"Flat Knit Jacquard Polo T-Shirt | Beige",
+    description:"Achieve understated elegance with our Premium Beige Flat Knit Polo T-Shirt, featuring a smooth knit texture and a refined beige tone for a versatile look.",
+    price:1429,
+    image:[img13_1,img13_2,img13_3,img13_4],
+    category:"men",
+    subCategory:"Topwear",
+    sizes:["S","M","L"],
+    date:1609876543210,
+    bestSeller:true
+},{
+    _id:"tyhj78",
+    name:"KIROTO Kids Puff Sleeve Top",
+    description:"This off-white top by HOP Kids is waffled-textured and boasts adorable red cherry prints. The pure cotton garment includes a square neck, short sleeves and pleated detailing.",
+    price:456,
+    image:[img14_1,img14_2,img14_3],
+    category:"kids",
+    subCategory:"Topwear",
+    sizes:["S","M","L"],
+    date:1609876543210,
     bestSeller:true
 }
 ]
@@ -130,12 +219,8 @@ export const products=[{
 
 
 
+
 // 
-// 1405632176543
-// 1598745632198
-// 1783421567890
-// 1660054321987
-// 1609876543210
 // 1512367890123
 // 1723498765432
 // 1556789012345
